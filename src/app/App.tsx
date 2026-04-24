@@ -1,10 +1,9 @@
 import { Mail, Phone, MapPin, Linkedin, Github, Download, ExternalLink } from 'lucide-react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import avatarImg from '../imports/image-removebg-preview.png';
-import profileImg from '../imports/image-6.png';
-import heroFullImg from '../imports/hero-new.png';
-
+const heroFullImg = "/images/hero-new.png";
+const profileImg = "/images/profile-pic.png";
+const avatarImg = "/images/image-removebg-preview.png";
 export default function App() {
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
